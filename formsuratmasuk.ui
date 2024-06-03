@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>formSuratMasuk</class>
+ <widget class="QWidget" name="formSuratMasuk">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>707</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>40</y>
+     <width>521</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="noSuratMasukLabel">
+      <property name="text">
+       <string>No Surat Masuk</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="noSuratMasukLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="noAgendaLabel">
+      <property name="text">
+       <string>No Agenda</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="noAgendaLineEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="tglSuratLabel">
+      <property name="text">
+       <string>Tgl Surat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QDateEdit" name="tglSuratDateEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="tglTerimaLabel">
+      <property name="text">
+       <string>Tgl Terima</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QDateEdit" name="tglTerimaDateEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="asalSuratLabel">
+      <property name="text">
+       <string>Asal Surat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="asalSuratLineEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="tujuanLabel">
+      <property name="text">
+       <string>Tujuan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="tujuanLineEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="perihalLabel">
+      <property name="text">
+       <string>Perihal</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="perihalLineEdit"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="sifatSuratLabel">
+      <property name="text">
+       <string>Sifat Surat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="sifatSuratLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>330</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simpan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>330</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ubah</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>330</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hapus</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>330</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cari</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
