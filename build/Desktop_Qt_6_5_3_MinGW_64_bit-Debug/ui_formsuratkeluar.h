@@ -13,9 +13,11 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDateEdit>
 #include <QtWidgets/QFormLayout>
+#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QTableView>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -45,6 +47,7 @@ public:
     QPushButton *pushButton_2;
     QPushButton *pushButton_3;
     QPushButton *pushButton_4;
+    QTableView *tableSrtKlr;
 
     void setupUi(QWidget *formSuratKeluar)
     {
@@ -149,6 +152,9 @@ public:
         pushButton_4 = new QPushButton(formSuratKeluar);
         pushButton_4->setObjectName("pushButton_4");
         pushButton_4->setGeometry(QRect(520, 340, 111, 29));
+        tableSrtKlr = new QTableView(formSuratKeluar);
+        tableSrtKlr->setObjectName("tableSrtKlr");
+        tableSrtKlr->setGeometry(QRect(110, 380, 256, 192));
 
         retranslateUi(formSuratKeluar);
 

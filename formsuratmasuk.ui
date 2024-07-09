@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>707</width>
-    <height>523</height>
+    <height>630</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -155,6 +155,16 @@
    </property>
    <property name="text">
     <string>Cari</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableSrtMsk">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>400</y>
+     <width>361</width>
+     <height>192</height>
+    </rect>
    </property>
   </widget>
  </widget>

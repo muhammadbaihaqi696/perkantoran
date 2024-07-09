@@ -8,6 +8,7 @@
 #include <QSqlQuery>
 #include <QDebug>
 #include <QSqlRecord>
+#include <QSqlQueryModel>
 
 namespace Ui {
 class formSuratKeluar;
@@ -19,6 +20,7 @@ class formSuratKeluar : public QWidget
 
 public:
     explicit formSuratKeluar(QWidget *parent = nullptr);
+    void loadTabelSrtKlr();
     ~formSuratKeluar();
 
 private slots:
@@ -30,11 +32,15 @@ private slots:
 
     void on_pushButton_4_clicked();
 
+
+    void on_tableSrtKlr_activated(const QModelIndex &index);
+
 private:
     Ui::formSuratKeluar *ui;
     QSqlDatabase koneksi;
     QSqlQuery sql;
     QSqlRecord cari;
+    QSqlQueryModel *tabelModel;
 };
 
 #endif // FORMSURATKELUAR_H

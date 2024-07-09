@@ -13,9 +13,11 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDateEdit>
 #include <QtWidgets/QFormLayout>
+#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QTableView>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -45,12 +47,13 @@ public:
     QPushButton *pushButton_2;
     QPushButton *pushButton_3;
     QPushButton *pushButton_4;
+    QTableView *tableSrtMsk;
 
     void setupUi(QWidget *formSuratMasuk)
     {
         if (formSuratMasuk->objectName().isEmpty())
             formSuratMasuk->setObjectName("formSuratMasuk");
-        formSuratMasuk->resize(707, 523);
+        formSuratMasuk->resize(707, 630);
         formLayoutWidget = new QWidget(formSuratMasuk);
         formLayoutWidget->setObjectName("formLayoutWidget");
         formLayoutWidget->setGeometry(QRect(90, 40, 521, 271));
@@ -149,6 +152,9 @@ public:
         pushButton_4 = new QPushButton(formSuratMasuk);
         pushButton_4->setObjectName("pushButton_4");
         pushButton_4->setGeometry(QRect(490, 330, 121, 31));
+        tableSrtMsk = new QTableView(formSuratMasuk);
+        tableSrtMsk->setObjectName("tableSrtMsk");
+        tableSrtMsk->setGeometry(QRect(100, 400, 361, 192));
 
         retranslateUi(formSuratMasuk);
 
